@@ -1,0 +1,15 @@
+// =========================
+//        LAYOUT
+// =========================
+
+header {
+  @include flexify($dir: row, $just: space-between);
+}
+
+nav {
+  display: none;
+}
+
+h1 {
+  margin-left: em(25px); 
+}

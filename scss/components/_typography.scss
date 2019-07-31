@@ -1,0 +1,21 @@
+// ====================
+//      TYPOGRAPHY
+// ====================
+
+h1 {
+  font-family: $font-family--secondary;
+  font-size: em(120px);
+  margin-top: em(30px);
+  text-shadow: 2px 2px 4px $royal-heath;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: $font-family--primary;
+  color: lighten($royal-heath, 20%);
+  opacity: .8;
+  font-size: em(50px);
+  text-transform: uppercase;
+  margin-left: em(50px); 
+}

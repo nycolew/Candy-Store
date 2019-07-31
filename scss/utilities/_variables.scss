@@ -1,0 +1,59 @@
+//===============================
+// GLOBAL CONFIG
+//===============================
+
+
+// Colors
+
+$white              : #ffffff;
+$black              : #000000;
+$java               : #1ECBE1;
+$alizarin-crimson   : #E1341E;
+$carousel-pink      : #f9e3ee;
+$picton-blue        : #45aae6;
+$royal-heath        : #9e378e;
+$cerise             : #e8498f;
+
+// Color Usage
+
+$color-primary             : $picton-blue;
+$color-background          : $carousel-pink;
+$color-secondary           : $royal-heath;
+$color-tertiary            : $cerise;
+$color-text                : $black;
+
+// Font Stacks
+
+$font-url--google       : 'https://fonts.googleapis.com/css?family=Pacifico';
+
+$font-family--primary   : 'Bree Serif', 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Pacifico', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weights
+
+$font-weight--thin  : 100;
+$font-weight--light : 300;
+$font-weight--medium: 400;
+$font-weight--bold  : 700;
+$font-weight--ultra : 900;
+
+// Text
+
+$base__font-size : 18px;
+$base__line: 26px;
+$letter-space: 1px;
+
+// Breakpoints
+
+$brkpoint-sm: 1px;
+$brkpoint-md: 768px;
+$brkpoint-lg: 1024px;
+
+
+// Border Radius
+
+$br-default: .3em;
+
+// Borders
+
+$section-div        : .5px solid lighten($color-text, 30%);
